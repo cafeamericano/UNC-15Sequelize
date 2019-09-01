@@ -1,8 +1,8 @@
-# **UNC Assignment #12 - Burger SQL**
+# **UNC Assignment #13 - Burger Sequelize**
 > Created by Matthew Farmer
 
 ## About
-'Burger SQL' is a simple application that allows the user to create, consume, and throw away virtual burgers. This app stores all created burgers and their properties in a MySQL database.
+'Burger SQL' is a simple application that allows the user to create, consume, and throw away virtual burgers. This app stores all created burgers and their properties in a MySQL database via the Sequelize ORM.
 
 ## Walkthrough
 
@@ -28,4 +28,4 @@ If a user wishes to permanently remove a burger (on both the DOM and the databas
 
 ### Technologies Used
 
-This application is built on NodeJS and is hosted on Heroku. It utilizes MySQL for its database, Handlebars for rendering templates, and Express for routing. An ORM has been implemented to make more concise the code necessary for connecting the front-end to the data-base. AJAX calls are also frequently made to retrieve data from the back-end.
+This application is built on NodeJS and is hosted on Heroku. It utilizes MySQL for its database, Sequelize as its ORM, Handlebars for rendering templates, and Express for routing. An ORM has been implemented to make more concise the code necessary for connecting the front-end to the data-base. AJAX calls are also frequently made to retrieve data from the back-end.
