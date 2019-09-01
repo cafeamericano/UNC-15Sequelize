@@ -1,5 +1,5 @@
 {
-  "name": "unc-14burgersql",
+  "name": "unc-15burgersql",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cafeamericano/UNC-14BurgerSQL.git"
+    "url": "git+https://github.com/cafeamericano/UNC-15BurgerSQL.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cafeamericano/UNC-14BurgerSQL/issues"
+    "url": "https://github.com/cafeamericano/UNC-15BurgerSQL/issues"
   },
-  "homepage": "https://github.com/cafeamericano/UNC-14BurgerSQL#readme",
+  "homepage": "https://github.com/cafeamericano/UNC-15BurgerSQL#readme",
   "dependencies": {
     "express": "^4.17.0",
     "express-handlebars": "^3.1.0",
