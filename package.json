@@ -1,5 +1,5 @@
 {
-  "name": "unc-15burgersql",
+  "name": "unc-15Sequelize",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cafeamericano/UNC-15BurgerSQL.git"
+    "url": "git+https://github.com/cafeamericano/UNC-15Sequelize.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cafeamericano/UNC-15BurgerSQL/issues"
+    "url": "https://github.com/cafeamericano/UNC-15Sequelize/issues"
   },
-  "homepage": "https://github.com/cafeamericano/UNC-15BurgerSQL#readme",
+  "homepage": "https://github.com/cafeamericano/UNC-15Sequelize#readme",
   "dependencies": {
     "express": "^4.17.0",
     "express-handlebars": "^3.1.0",
