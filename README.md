@@ -2,7 +2,7 @@
 > Created by Matthew Farmer
 
 ## About
-'Burger SQL' is a simple application that allows the user to create, consume, and throw away virtual burgers. This app stores all created burgers and their properties in a MySQL database via the Sequelize ORM.
+'Burger Sequelize' is a simple application that allows the user to create, consume, and throw away virtual burgers. This app stores all created burgers and their properties in a MySQL database via the Sequelize ORM.
 
 ## Walkthrough
 
