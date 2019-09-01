@@ -13,7 +13,6 @@ module.exports = function(app) {
 
   app.get("/api/allburgers", function(req, res) {
     db.Burger.findAll({}).then(function(result) {
-      console.log(result)
       res.render("index", { datum: result });
     });
   });
@@ -41,7 +40,8 @@ module.exports = function(app) {
   // //POST ROUTES ####################################################################################
 
   app.post("/api/addnewburger", function(req, res) {
-    db.Burger.create(req.body).then(function(result) {
+    db.Burger.create(req.body).then(function() {
+      console.log(req.body);
       res.send("Burger added.");
     });
   });
@@ -49,7 +49,8 @@ module.exports = function(app) {
   //PUT ROUTES ####################################################################################
 
   app.put("/api/changedevouredstatus", function(req, res) {
-    db.Burger.update(req.body.newdevouredstatus, {
+    console.log(req.body);
+    db.Burger.update(req.body, {
       where: {
         id: req.body.id
       }
